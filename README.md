@@ -17,7 +17,7 @@ Play Store, because Google doesn't allow YouTube downloaders there.
 ## Installing it
 
 1. On your Android phone, open the
-   [latest build](https://github.com/Akrishna87/Akrishna87/releases/tag/songgrab-latest)
+   [latest build](https://github.com/Akrishna87/songgrab/releases/tag/songgrab-latest)
    and tap **SongGrab.apk** to download it. (Only use **SongGrab-older-phones.apk** if your
    phone is very old and SongGrab.apk won't install.)
 2. Open the downloaded file. Android will ask you to allow installing apps from your browser
@@ -94,7 +94,7 @@ way an update might fix. To update by hand, tap ⓘ at the top and **Update down
   type. `SongGrab.apk` is for 64-bit ARM phones, which covers nearly all phones from the last
   ten years.
 
-CI ([songgrab-apk.yml](../.github/workflows/songgrab-apk.yml)) runs the unit tests, builds the
+CI ([songgrab-apk.yml](.github/workflows/songgrab-apk.yml)) runs the unit tests, builds the
 APKs and runs [ci/smoke-test.sh](ci/smoke-test.sh) on an Android 14 emulator. The test shares
 a link to SongGrab (a tone the test serves itself), waits for the MP3 to land in
 Music/SongGrab with a tidied title, plays it, and checks it keeps playing in the background.
